@@ -3,8 +3,8 @@ import random
 import smtplib
 import pandas
 
-my_id = "gururajhr0305l@gmail.com"
-my_password = "jkmakcpvcrpckyog"
+my_id = os.environ["my-id"]
+my_password = os.environ["my_pass"]
 
 now = dt.datetime.now()
 today_mandy =(now.month,now.day)
